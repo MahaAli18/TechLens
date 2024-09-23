@@ -91,10 +91,25 @@ window.addEventListener('DOMContentLoaded', event => {
             slidesToShow: 1,
             slidesToScroll: 1,
             dots: true,
-            arrows: false,
+            arrows: true, // Enable arrows
             autoplay: true,
             autoplaySpeed: 2000,
             fade: false
+        });
+    });
+
+    $(document).ready(function(){
+        $('.portfolio-carousel').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            arrows: true, // Enable arrows
+            autoplay: true,
+            autoplaySpeed: 2000,
+            fade: false,
+            prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+            nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>'
         });
     });
     

@@ -11400,6 +11400,34 @@ header.masthead .masthead-heading {
   color: #ffffff;
 }
 
+/* Position and style the custom slick arrows */
+.slick-prev, .slick-next {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 24px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.slick-prev {
+  left: -50px; /* Position the left arrow outside the carousel */
+}
+
+.slick-next {
+  right: -50px; /* Position the right arrow outside the carousel */
+}
+
+/* Optional: Change the hover effect */
+.slick-prev:hover, .slick-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 
 @media (min-width: 768px) {
   .timeline:before {
