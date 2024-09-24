@@ -106,7 +106,7 @@ window.addEventListener('DOMContentLoaded', event => {
             dots: true,
             arrows: true, // Enable arrows
             autoplay: true,
-            autoplaySpeed: 2000,
+            autoplaySpeed: 1000,
             fade: false,
             prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
             nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>'
